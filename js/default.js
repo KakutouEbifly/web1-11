@@ -30,6 +30,7 @@ for(var point = 10;point - 1; point <= 0 || goal === 0){
       message = '残念がんば！';
     }
     
-    document.getElementById('choice').textContect = message;
+    
   }
+  document.getElementById('choice').textContect = message;
 }
