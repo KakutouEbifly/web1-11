@@ -1,5 +1,5 @@
 //数字あてゲームの数字決め
-ver number = Math.floor(Math.random()*100+1);
+ver number = Math.floor(Math.random()*100);
 ver allNumber = 100;
 ver partNumber = allNumber / 2;
 ver point = 10;
