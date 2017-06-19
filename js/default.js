@@ -12,7 +12,7 @@ for(var point = 10;point - 1; point <= 0 || goal === 0){
     if(answer < 0 || answer > 100){
       window.prompt('値が正しくないでござる');
     }
-  }while(answer < 0 || ansswer > 100);
+  }while(answer < 0 || answer > 100);
   
   if(answer === 0){
     partNumber = allNumber / 2;
