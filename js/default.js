@@ -5,7 +5,7 @@ var partNumber = allNumber / 2;
 var point = 10;
 
 //ゲーム
-for(var i = 0; point <= 0; i>0;){
+for(var i = 0; point <= 0; i　>　0){
   do{
     var answer = parseInt(window.prompt('残りポイント${allNumber}\n\n数あてゲーム！1～100から探してね！\nヒントが欲しい人は0を入力してね！'));
     if(answer < 0 || ansswer > 100){
