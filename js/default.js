@@ -8,7 +8,7 @@ var goal = 0;
 //ゲーム
 for(var point = 10;point - 1; point <= 0 || goal === 0){
   do{
-    document.write('残りポイント${allNumber}\n\n');
+    document.write("残りポイント${allNumber}\n\n");
     var answer = parseInt(window.prompt('数あてゲーム！1～100から探してね！\nヒントが欲しい人は0を入力してね！'));
     if(answer < 0 || answer > 100){
       window.prompt('値が正しくないでござる');
