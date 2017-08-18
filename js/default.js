@@ -32,5 +32,5 @@ for(var point = 10;point - 1; point <= 0 || goal === 0){
     
     
   }
-  document.getElementById('choice').textContect = message;
+  document.getElementById('choice').textContent = message;
 }
